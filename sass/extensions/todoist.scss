@@ -11,6 +11,12 @@
   filter: contrast(45%);
 }
 
+// Reduce the padding of clockify icon
+.task_item .clockify-button-active,
+.task_item .clockify-button-inactive {
+  padding: 0 10px;
+}
+
 // .clockify-button-inactive {
 //   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAXZJREFUeNp0k8srRVEUh8+9LjNMkMSIuiORmZCB8hiZUIyYIMVEpv4JBh5JBiIRRpTHRHdi4jUhUYpQN48UeXWvb9XvaLe7Vn2ds85Z67fW3nvtSO/oWJDBGqAHmqAUvuECxmHODYx5iQUwC+3ed4vLhW35FXAF6agTVAgJL/kFjuEQWuAW6uRbJxG3gwWI6/0GRmADfpwYS95SN/nWWShgVZv1fg218OAtox42lbwOXbY34RKGncD+DMlWaMpL/rIfJpClXQ+0MTteciOUQKtE/pJD5SLIkX/iJdtRzsOjRAb987YOsoP/7UNPq5jKFGAC9/Apv8r7vww1+l4ME37BqKYsIb9ca3XtCJ5hD4Zg0RUJT2HSSZjRel2zWeiDd+iQSMwVWFMFszI4UGCOI7IPbY7Ikp1gKJCGbjiXbxdoBZJwqnGOOyJvWlbKvQtJjeqq8y0PKrWJuxI2kWoY8C+T2RN0apSn4UzVXuFOQ2V2qa6DXwEGAANHVAADyBvoAAAAAElFTkSuQmCC) left center no-repeat;
 //   color: #444;

@@ -20,7 +20,7 @@
 // @include       https://*.clockify.me/*
 // ==/UserScript==
 (function() {var css = [
-  "  .project__border,.timepicker .timepicker--hour,.tracker__time__entry--input{border:1px solid transparent}.task_item .clockify-button-inactive{display:none}.task_item:hover .clockify-button-inactive{display:initial}.theme_dark .clockify-button-active{-webkit-filter:contrast(45%);filter:contrast(45%)}",
+  "  .project__border,.timepicker .timepicker--hour,.tracker__time__entry--input{border:1px solid transparent}.task_item .clockify-button-inactive{display:none}.task_item:hover .clockify-button-inactive{display:initial}.theme_dark .clockify-button-active{-webkit-filter:contrast(45%);filter:contrast(45%)}.task_item .clockify-button-active,.task_item .clockify-button-inactive{padding:0 10px}",
   ""
 ].join("\n");
 if (typeof GM_addStyle != "undefined") {
