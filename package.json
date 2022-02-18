@@ -12,7 +12,7 @@
     "supportURL": "https://github.com/thiagobraga/clockify-userstyles/issues",
     "updateBaseURL": "https://github.com/thiagobraga/clockify-userstyles/raw/master/",
     "match": {
-      "domain": "clockify.me"
+      "domain": "app.clockify.me"
     }
   },
   "devDependencies": {
