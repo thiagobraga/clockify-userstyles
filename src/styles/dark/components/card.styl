@@ -1,5 +1,14 @@
 body.dark
-
   // Fix borders around "What are you working on?" input
   .cl-card
     border 1px solid $black !important
+
+  // Makes "Total:" text in card headers a little darker
+  .cl-entry-total-label
+    color var(--blue-gray-9)
+
+  // Do the same for bulk edit icon
+  .cl-card-header
+    > div:not(.cl-h6)
+      > a > img
+        filter hue-rotate(35deg) brightness(0.4)
