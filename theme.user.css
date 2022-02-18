@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name          Clockify One Dark
 @description   Improvements and Dark Theme for Clockify
-@version       0.1.0
+@version       0.2.0
 @author        Thiago Braga <thi@thiagobraga.dev>
 @license       MIT
 @namespace     https://github.com/thiagobraga
@@ -12,8 +12,50 @@
 @-moz-document
   domain('app.clockify.me')
 {
+  body {
+    font-size: 0.9rem;
+    font-family: Helvetica Neue, var(--font-family-sans-serif);
+  }
+  body .cl-form-control {
+    font-size: 0.9rem;
+  }
+  .cl-timetracker-entry-actions billable-icon,
+  .cl-timetracker-list-actions billable-icon {
+    display: none;
+  }
+  .floating-chat-button img {
+    margin: 0;
+  }
   .floating-chat-button span {
     display: none;
+  }
+  .cl-top-bar .cl-navbar-toggler,
+  .cl-navbar-expand-lg .cl-navbar-nav .cl-nav-link {
+    border-left: 0 !important;
+  }
+  .cl-sidebar-wrapper {
+    box-shadow: none;
+  }
+  @media (min-width: 992px) {
+    .cl-layout-aside {
+      border-left-color: transparent;
+    }
+  }
+  tag-names {
+    display: none;
+  }
+  .cl-description-col {
+    flex-grow: 1 !important;
+  }
+  .cl-project-col {
+    flex-grow: 0;
+    margin-right: 10px;
+  }
+  .cl-tag-col {
+    display: none;
+  }
+  time-tracker-entry .cl-input-time-picker {
+    width: 55px;
   }
   body.dark ::-moz-selection {
     background-color: var(--blue-gray-5);
@@ -25,6 +67,12 @@
   }
   body.dark .cl-card {
     border: 1px solid #1e2127 !important;
+  }
+  body.dark .cl-entry-total-label {
+    color: var(--blue-gray-9);
+  }
+  body.dark .cl-card-header > div:not(.cl-h6) > a > img {
+    filter: hue-rotate(35deg) brightness(0.4);
   }
   body.dark .cl-nav-icon-wrapper img:not(.cl-avatar-image) {
     filter: brightness(1.5);

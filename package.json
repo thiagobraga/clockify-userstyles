@@ -2,7 +2,7 @@
   "name": "clockify-userstyles",
   "description": "Improvements and Dark Theme for Clockify",
   "author": "Thiago Braga <thi@thiagobraga.dev>",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "license": "MIT",
   "private": true,
   "userstyle": {
