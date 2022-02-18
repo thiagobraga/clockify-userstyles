@@ -1,8 +1,8 @@
 {
   "name": "clockify-userstyles",
   "description": "Improvements and Dark Theme for Clockify",
-  "author": "Thiago Braga <contato@thiagobraga.org>",
-  "version": "0.0.1",
+  "author": "Thiago Braga <thi@thiagobraga.dev>",
+  "version": "0.0.2",
   "license": "MIT",
   "private": true,
   "userstyle": {
@@ -16,12 +16,17 @@
     }
   },
   "devDependencies": {
-    "autoprefixer": "9.6.1",
-    "chokidar-cli": "2.0.0",
-    "cssnano": "4.1.10",
+    "autoprefixer": "10.3.7",
+    "chokidar-cli": "3.0.0",
     "font-awesome": "4.7.0",
-    "postcss-cli": "6.1.3",
-    "stylus": "0.54.7",
+    "postcss": "8.3.11",
+    "postcss-cli": "9.0.2",
+    "stylus": "0.55.0",
     "userstyle-gen": "0.1.2"
+  },
+  "resolutions": {
+    "ansi-regex": "2.1.1",
+    "yargs-parser": ">=13.1.2",
+    "nanoid": ">=3.1.31"
   }
 }

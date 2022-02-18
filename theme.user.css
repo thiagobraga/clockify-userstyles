@@ -1,8 +1,8 @@
 /* ==UserStyle==
 @name          Clockify One Dark
 @description   Improvements and Dark Theme for Clockify
-@version       0.0.1
-@author        Thiago Braga <contato@thiagobraga.org>
+@version       0.0.2
+@author        Thiago Braga <thi@thiagobraga.dev>
 @license       MIT
 @namespace     https://github.com/thiagobraga
 @homepageURL   https://github.com/thiagobraga/clockify-userstyles
@@ -31,6 +31,18 @@
   .cl-redesign time-tracker-recorder:hover .cl-input-timetracker-main:not([disabled]),
   .cl-redesign time-tracker-recorder:hover .cl-input-timetracker-main:not([disabled]):hover {
     border: 1px solid #5c6370 !important;
+  }
+  .cl-alert.cl-alert-info .cl-btn,
+  .cl-alert.cl-alert-primary .cl-btn,
+  .cl-btn-primary {
+    background-color: #505b74;
+    border-color: #505b74;
+  }
+  .cl-alert.cl-alert-info .cl-btn:hover,
+  .cl-alert.cl-alert-primary .cl-btn:hover,
+  .cl-btn-primary:hover {
+    background-color: #596581;
+    border-color: #596581;
   }
   body {
     background-color: #1e2127;
