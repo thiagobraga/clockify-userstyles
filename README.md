@@ -7,7 +7,7 @@
 <p align="center">
   ⏳⏲️⏰ Improvements for Clockify ⏱️🕰️⌛<br>
   <a href="https://raw.githubusercontent.com/thiagobraga/clockify-userstyles/master/theme.user.css"><img src="https://img.shields.io/badge/Install%20directly%20with-Stylus-lightgrey.svg?longCache=true&logo=clockify&logoColor=03a9f4" align="center" alt="Install directly with Stylus extension" /></a>
-  <a href="https://raw.githubusercontent.com/thiagobraga/clockify-userstyles/master/theme.user.css"><img src="https://img.shields.io/badge/version-0.0.2-03a9f4.svg" align="center" alt="Version 0.0.2"></a>
+  <a href="https://raw.githubusercontent.com/thiagobraga/clockify-userstyles/master/theme.user.css"><img src="https://img.shields.io/badge/version-0.1.0-03a9f4.svg" align="center" alt="Version 0.1.0"></a>
 </p>
 
 ## Installation
@@ -17,7 +17,7 @@
 
 ## Development
 
-``` sh
+```sh
 git clone https://github.com/thiagobraga/clockify-userstyles
 cd clockify-userstyles
 make

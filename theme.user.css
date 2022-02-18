@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name          Clockify One Dark
 @description   Improvements and Dark Theme for Clockify
-@version       0.0.2
+@version       0.1.0
 @author        Thiago Braga <thi@thiagobraga.dev>
 @license       MIT
 @namespace     https://github.com/thiagobraga
@@ -10,112 +10,29 @@
 @updateURL     https://github.com/thiagobraga/clockify-userstyles/raw/master/theme.user.css
 ==/UserStyle== */
 @-moz-document
-  domain('clockify.me')
+  domain('app.clockify.me')
 {
-  .cl-h2,
-  h2 {
-    color: inherit;
+  .floating-chat-button span {
+    display: none;
   }
-  .cl-form-control {
-    background-color: #1e2127;
+  body.dark ::-moz-selection {
+    background-color: var(--blue-gray-5);
+    color: var(--blue-gray-10);
   }
-  .cl-redesign .cl-input-time-picker-sum,
-  .modal-dialog .cl-input-time-picker-sum {
-    color: #abb2bf !important;
+  body.dark ::selection {
+    background-color: var(--blue-gray-5);
+    color: var(--blue-gray-10);
   }
-  .cl-redesign [type=text],
-  .modal-dialog [type=text] {
-    background-color: #1e2127;
-    color: #abb2bf !important;
+  body.dark .cl-card {
+    border: 1px solid #1e2127 !important;
   }
-  .cl-redesign time-tracker-recorder:hover .cl-input-timetracker-main:not([disabled]),
-  .cl-redesign time-tracker-recorder:hover .cl-input-timetracker-main:not([disabled]):hover {
-    border: 1px solid #5c6370 !important;
-  }
-  .cl-alert.cl-alert-info .cl-btn,
-  .cl-alert.cl-alert-primary .cl-btn,
-  .cl-btn-primary {
-    background-color: #505b74;
-    border-color: #505b74;
-  }
-  .cl-alert.cl-alert-info .cl-btn:hover,
-  .cl-alert.cl-alert-primary .cl-btn:hover,
-  .cl-btn-primary:hover {
-    background-color: #596581;
-    border-color: #596581;
-  }
-  body {
-    background-color: #1e2127;
-    color: #abb2bf;
-  }
-  .cl-locked-no-underline {
-    filter: saturate(0.5) brightness(1.6);
-    opacity: 0.75;
-  }
-  .cl-component-divided-left:before {
-    background: none;
-  }
-  .cl-card {
-    border: 1px solid #5c6370 !important;
-    background-color: #31343f;
+  body.dark .cl-nav-icon-wrapper img:not(.cl-avatar-image) {
+    filter: brightness(1.5);
   }
   @media (min-width: 992px) {
-    .cl-card {
-      border-bottom: 1px solid #5c6370;
-    }
-  }
-  .cl-card-header {
-    background-color: #1e2127;
-  }
-  .rotating-loader-logo-container {
-    background-color: #1e2127;
-    border: 1px solid #31343f;
-  }
-  .rotating-loader-text-title {
-    color: #abb2bf;
-  }
-  .logo-hands-color {
-    fill: #abb2bf;
-  }
-  .cl-layout-aside {
-    background-color: #31343f;
-  }
-  @media (min-width: 992px) {
-    .cl-layout-aside {
-      border-left: 0;
-    }
-  }
-  .cl-navbar {
-    background-color: transparent;
-  }
-  .cl-offcanvas-collapse {
-    background-color: #31343f;
-  }
-  .cl-navbar-light .cl-navbar-nav .cl-nav-link {
-    color: #abb2bf;
-  }
-  .cl-nav-icon-wrapper img:not(.cl-avatar-image) {
-    filter: brightness(1.75);
-  }
-  @media (min-width: 992px) {
-    .cl-sidebar-container .cl-nav-item:before {
+    body.dark .cl-sidebar-container .cl-nav-item:before {
       background-color: rgba(255,255,255,0.05);
       transition: none;
     }
-  }
-  .cl-navbar-light .cl-navbar-nav .cl-nav-link,
-  .cl-navbar-light .cl-navbar-nav .cl-nav-link:focus,
-  .cl-navbar-light .cl-navbar-nav .cl-nav-link:hover {
-    color: #abb2bf;
-  }
-  .cl-sidebar-container .cl-nav-item.cl-active .cl-nav-link {
-    background-color: rgba(255,255,255,0.15);
-    color: #abb2bf;
-  }
-  .cl-sidebar-header .cl-nav-link > img {
-    filter: brightness(1.5);
-  }
-  .cl-collapse-nav-button {
-    background-color: #31343f;
   }
 }
